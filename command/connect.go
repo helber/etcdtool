@@ -17,7 +17,6 @@ func contextWithCommandTimeout(c *cli.Context) (context.Context, context.CancelF
 
 func newTransport(e Etcdtool) *http.Transport {
 	tls := transport.TLSInfo{
-		CAFile:   e.CA,
 		CertFile: e.Cert,
 		KeyFile:  e.Key,
 	}

@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "remotePath": "",
+            "port": 2345,
+            "host": "127.0.0.1",
+            // "program": "${fileDirname}",
+            "program": "${workspaceRoot}/main.go",
+            "env": {
+                "ETCDTOOL_USER": "root",
+                "ETCDTOOL_PASSWORD": "root",
+            },
+            "args": [ "--debug", "export", "-f", "YAML", "/"],
+            // "args": [ "--debug", "import", "-f", "YAML", "-y", "/", "initial.yaml"],  // --debug -u ahapp -w ahapp import -y -f YAML / initial.yaml
+            "showLog": false
+        }
+    ]
+}
