@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coreos/etcd/client"
+	"github.com/etcd-io/etcd/client"
 	"github.com/urfave/cli"
 	"golang.org/x/net/context"
 )

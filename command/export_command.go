@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/coreos/etcd/client"
-	"github.com/mickep76/etcdmap"
+	"github.com/etcd-io/etcd/client"
+	"github.com/helber/etcdmap"
 	"github.com/mickep76/iodatafmt"
 	"github.com/urfave/cli"
 )

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/etcd-io/etcd/client"
+	"github.com/etcd-io/etcd/pkg/transport"
 	"github.com/urfave/cli"
 	"golang.org/x/net/context"
 )

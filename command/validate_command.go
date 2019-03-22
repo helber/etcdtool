@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/coreos/etcd/client"
-	"github.com/mickep76/etcdmap"
+	"github.com/etcd-io/etcd/client"
+	"github.com/helber/etcdmap"
 	"github.com/urfave/cli"
 	"github.com/xeipuuv/gojsonschema"
 )
